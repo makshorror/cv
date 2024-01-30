@@ -120,4 +120,24 @@
   color: #ff253a;
 }
 
+/*@media (max-width: 768px) {
+  .container{
+    .grid{
+      display: grid;
+
+      grid-template-rows: 1fr;
+      grid-template-columns: 1fr;
+
+      gap: 0;
+      height: 100%;
+      .grid-small-column{
+
+      }
+      .grid-large-column{
+
+      }
+    }
+  }
+}*/
+
 /*# sourceMappingURL=main.css.map */
