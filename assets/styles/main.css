@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  font-family: "IBM Plex Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.container .grid {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 48px;
+  height: 100%;
+}
+.container .grid .grid-small-column {
+  background-color: #323B4C;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-row-end: 2;
+  grid-column-end: 2;
+}
+.container .grid .grid-small-column .aside-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .grid .grid-small-column .aside-wrapper .avatar-wrapper {
+  margin: 24px;
+}
+.container .grid .grid-small-column .aside-wrapper .avatar-wrapper .avatar {
+  width: 100%;
+}
+.container .grid .grid-small-column .aside-wrapper .main-text {
+  color: white;
+  font-size: 24px;
+}
+.container .grid .grid-small-column .aside-wrapper .line-aside {
+  width: 90%;
+  height: 2px;
+  background-color: #fff;
+}
+.container .grid .grid-small-column .aside-wrapper .end {
+  margin-bottom: 36px;
+}
+.container .grid .grid-small-column .aside-wrapper .icons {
+  transition: 0.3s;
+  color: white;
+  transform: scaleX(-1);
+}
+.container .grid .grid-small-column .aside-wrapper .contacts {
+  margin-top: 24px;
+}
+.container .grid .grid-small-column .aside-wrapper .contacts .contact-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  transition: 0.3s;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 12px;
+}
+.container .grid .grid-small-column .aside-wrapper .contacts .contact-items:hover {
+  color: #ff253a;
+}
+.container .grid .grid-small-column .aside-wrapper .contacts .contact-items:hover .icons {
+  color: #ff253a;
+}
+.container .grid .grid-small-column .aside-wrapper .item-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 24px;
+}
+.container .grid .grid-small-column .aside-wrapper .item-wrapper .text-aside {
+  color: white;
+}
+.container .grid .grid-large-column {
+  grid-row-start: 1;
+  grid-column-start: 2;
+  grid-row-end: 2;
+  grid-column-end: 4;
+}
+.container .grid .grid-large-column .about-wrapper {
+  margin: 24px;
+}
+.container .grid .grid-large-column .about-wrapper .name {
+  font-size: 48px;
+}
+.container .grid .grid-large-column .about-wrapper .text {
+  font-size: 24px;
+  margin-bottom: 36px;
+}
+.container .grid .grid-large-column .about-wrapper .line-section {
+  width: 90%;
+  height: 2px;
+  background-color: #000;
+}
+.container .grid .grid-large-column .about-wrapper .bold {
+  font-weight: bold;
+}
+.container .grid .grid-large-column .about-wrapper .text-about {
+  font-size: 18px;
+  margin-top: 12px;
+}
+.container .grid .grid-large-column .about-wrapper .end {
+  margin-bottom: 36px;
+}
+.container .grid .grid-large-column .about-wrapper .site {
+  transition: 0.3s;
+  color: black;
+  font-weight: bold;
+}
+.container .grid .grid-large-column .about-wrapper .site:hover {
+  color: #ff253a;
+}
+
+/*@media (max-width: 768px) {
+  .container{
+    .grid{
+      display: grid;
+
+      grid-template-rows: 1fr;
+      grid-template-columns: 1fr;
+
+      gap: 0;
+      height: 100%;
+      .grid-small-column{
+
+      }
+      .grid-large-column{
+
+      }
+    }
+  }
+}*/
+
+/*# sourceMappingURL=main.css.map */
